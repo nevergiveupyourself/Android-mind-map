@@ -1,0 +1,7 @@
+1.继承与派生的关系.
+2.Android 应用中如何保存数据.
+(1)sqlLite
+(2)Sharedpreferences
+(3)网络存储
+(4)文件存储:a)SD卡存储,b)内置存储
+(5)内容提供者:ContentProvider
