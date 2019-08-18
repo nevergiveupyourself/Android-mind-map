@@ -6,7 +6,14 @@
 (4)文件存储:a)SD卡存储,b)内置存储
 (5)内容提供者:ContentProvider
 3.布局:
-(1)有哪几种常见的布局及对应的特点
+(1)有哪几种常见的布局及对应的特点:
+a)线性布局(LinearLayout)(常用)
+b)相对布局(RelativeLayout)(常用)
+c)帧布局(FrameLayout)
+d)百分比布局(PercentFrameLayout)
+e)约束布局(ConstraintLayout)
+f)协同布局(CoordinatorLayout)
+
 (2)相对布局和线性布局的区别
 (3)描述一下约束布局(Constraint Layout),协同布局(CoordinatorLayout)
 (4)你知道布局文件到控件对象的过程吗？
