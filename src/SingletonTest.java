@@ -10,7 +10,7 @@ public class Singleton{
   }
 }
 
-//方法二：单例懒汉模式,第一次使用单例时创建
+//方法二：单例懒汉模式,第一次使用单例时创建,此种方法只能用在JDK5及以后版本(注意 INSTANCE 被声明为 volatile)
 public class Singleton {
   
     private static volatile Singleton INSTANCE=null;
