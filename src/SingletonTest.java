@@ -25,6 +25,7 @@ public class Singleton {
             synchronized (Singleton.class){
                 // When more than two threads run into the first null check same time,
                 // to avoid instanced more than one time, it needs to be checked again.
+              //疑问,2次判空的理由待进一步确认,synchronized按道理已经阻塞了？
                 if(INSTANCE == null){
                     INSTANCE=new Singleton();
                 }
